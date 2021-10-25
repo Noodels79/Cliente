@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Documento con una Capa</title>
+</head>
+
+<body>
+    <script>
+        var capa = document.getElementById("capa");
+        var h1 = document.createElement("h1");
+        h1.innerHTML = texto;
+        capa.appendChild(h1);
+        function addElemento(texto) {
+            var capa = document.getElementById("capa");
+            var h1 = document.createElement("h1");
+            h1.innerHTML = texto;
+            capa.appendChild(h1);
+        }
+    </script>
+
+
+
+
+    <div id="capa">
+        <form>
+            <label for="texto">Texto:</label>
+            <input id="texto" type="text" size="40/">
+            <input type="button" onclick="addElemento(getElementById('texto').value);" value="Añadir Elemento">
+        </form>
+    </div>
+
+</body>
+
+</html>
