@@ -1,0 +1,12 @@
+#caja{
+    width: 40%;
+    height: 200px;
+    margin-left: 5%;
+    float:left;
+}
+
+#resultado{
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 30px;
+}

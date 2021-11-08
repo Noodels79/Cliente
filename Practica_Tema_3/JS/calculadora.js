@@ -15,7 +15,7 @@ class Calculadora {
     }
     get resultado() {
         var cadena = "El resultado es: " + this._resultado;
-        document.getElementById("salida").innerHTML = cadena;
+        document.getElementById("resultado").innerHTML = cadena;
     }
     datos() {
         let x, y;
