@@ -17,14 +17,14 @@ do {
 
 
 
-    } while ((num_ped < 1 || num_ped > 100) && u == false)
+    } while ((num_ped < 1 || num_ped > 100) && !u)
 
     if (num_ped == ale) {
         alert("Has ganado ese era el numero " + num_ped + " en " + cont + " intentos")
         confirmar = confirm("¿Quieres volver a jugar")
-        if (confirmar == true) {
+        if (confirmar) {
             e = false
-        } else if (confirmar == false) {
+        } else if (!confirmar) {
             e = true
         }
     } else if (num_ped == "null" || num_ped == null) {
