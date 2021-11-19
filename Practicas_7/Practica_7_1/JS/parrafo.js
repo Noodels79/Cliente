@@ -16,7 +16,7 @@ if (texto != null) {
     //colocación del texto en su posición
     var lista = document.getElementsByTagName("ol")[0];
     var nuevoElemento = document.createElement("li");
-    nuevoElemento.innerHTML = '<strong>' + texto + '</strong>';
+    nuevoElemento.innerHTML = `<strong>' + ${texto} + '</strong>`;
     if (posicion == 10) {
         lista.appendChild(nuevoElemento);
     } else {
