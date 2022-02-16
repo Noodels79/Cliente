@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <head> 
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+            <script "text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+            <script "text/javascript" src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        </head>
+ 
+        <div class="slider">
+            <div><img src="../IMAGES/1033287.jpg" title="Taxi"></div>
+            <div><img src="../IMAGES/147581.jpg" title="Abstracto"></div>
+            <div><img src="../IMAGES/973969.jpg" title="City"></div>
+        </div>
+ 
+        <script>
+            $('.slider').bxSlider({
+                autoControls: true,
+                auto: true,
+                pager: true,
+                slideWidth: 800,
+                mode: 'fade',
+                captions: true,
+                speed: 1000
+            });
+        </script>
+    </body>
+</html>

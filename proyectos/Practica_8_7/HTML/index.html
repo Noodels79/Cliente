@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="StyleSheet" href="../CSS/css.css" type="text/css">
+    <title>Arrastrame</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div id="capa1" draggable="true" >
+    <p>Arrastrame</p>
+    </div>
+    <div id="capa2">
+        <p>Hasta aquí</p>
+    </div>
+    <script>
+        let capa1=document.getElementById("capa1");
+        let capa2=document.getElementById("capa2");
+        capa1.addEventListener("drag",(ev)=>{
+            capa1.style.opacity=.5;
+        });
+        capa1.addEventListener("dragend",(ev)=>{
+            capa1.style.opacity=1;
+            capa1.style.backgroundColor="transparent";
+        });
+        capa2.addEventListener("dragenter",(ev)=>{
+            capa2.style.backgroundColor="blue";
+        });
+        capa2.addEventListener("dragleave",(ev)=>{
+            capa2.style.backgroundColor="transparent";
+        });
+        capa2.addEventListener("dragover",(ev)=>{
+            ev.preventDefault();
+        });
+        capa2.addEventListener("drop",(ev)=>{
+            document.body.removeChild(capa1);
+            capa2.textContent="!!!!!3 puntos colega!!!!!";
+            capa2.style.backgroundColor="violet";
+        });
+
+    </script> 
+</body>
+</html>

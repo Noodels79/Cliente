@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="StyleSheet" href="../CSS/css.css" type="text/css">
+    <title>Practica 8.2</title>
+    
+</head>
+<body>
+    <div id="imagen">
+        <h1>Pulsa <kbd>Alt + F12</kbd> para cambiar la imagen de fondo</h1>
+    </div>
+    <script>
+        document.body.addEventListener("keyup",function(ev){
+            if(ev.altKey && ev.key=="F12"){
+                let capa=document.getElementById("imagen");
+                capa.style.backgroundImage="url('https://source.unsplash.com/random')";
+            }
+        })
+    </script>
+    
+</body>
+</html>

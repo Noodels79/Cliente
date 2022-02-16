@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="StyleSheet" href="../CSS/css.css" type="text/css">
+    <title>Cuadro para hacer click</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cambio de color</title>
+    </head>
+<body>
+    <div id ="capa"></div>   
+</body>
+    <script>var capa=document.getElementById("capa");
+        //el raton entra en la capa
+        capa.addEventListener("mouseenter",(ev)=>{
+            capa.style.backgroundColor="green";
+        });
+        //el raton sale de la capa
+        capa.addEventListener("mouseleave",(ev)=>{
+            capa.style.backgroundColor="transparent";
+        });
+        //se aprieta el boton principal sobre la capa
+        capa.addEventListener("mousedown",(ev)=>{
+            if(ev.button==0)
+            capa.style.backgroundColor="red";
+            else if(ev.button==2)
+            capa.style.backgroundColor="blue";
+        });
+        //se suelta el boton principal sobre la capa
+        capa.addEventListener("mouseup",(ev)=>{
+            capa.style.backgroundColor="green";
+        });
+        //se intenta sacar el menu de contexto, accion que se provoca
+        //con el boton secundario pero que se debe anular aparte
+        capa.addEventListener("contextmenu",(ev)=>{
+        ev.preventDefault();
+        });</script>
+</html>
+
+    
+</body>
+</html>

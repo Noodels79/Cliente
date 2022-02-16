@@ -1,0 +1,163 @@
+body{
+  background-image: url(../imagenes/fondo.jpg);
+}
+#normal {
+    width: 70%;
+    height:3000px;
+    border: 3px solid black;
+    margin-left: 15%;
+    background-image: url(../imagenes/692166.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  #nombre {
+    width: 600px;
+    height:100px;
+    border: 3px solid black;
+    background-color: aqua;
+    margin-top: 1%;
+    margin-left: 30%;
+    text-align: center;
+    font-family: Arial;
+  }
+  #datos {
+    width:60%;
+    height:200px;
+    border: 3px solid black;
+    background-color: aqua;
+    margin-left: 1%;
+    background-position: center;
+    text-align: center;
+    font-size: 20px;
+    float: left;
+    margin-top: 200px;
+    font-family: Arial;
+  }
+  #imagen1 {
+    width:20%;
+    height:200px;
+    border: 3px solid black;
+    background-image:url(../imagenes/metano.jpg);
+    margin-right: 4%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: right;
+    margin-top: 200px;
+  }
+  #imagen2 {
+    width:20%;
+    height:200px;
+    border: 3px solid black;
+    background-image:url(../imagenes/satelite.jpg);
+    margin-left: 4%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    margin-top: 200px;
+  }
+  #experiencia {
+    width:60%;
+    height:200px;
+    border: 3px solid black;
+    background-color: aqua;
+    margin-right: 1%;
+    background-position: center;
+    text-align: center;
+    font-size: 20px;
+    float: right;
+    margin-top: 200px;
+    font-family: Arial;
+  }
+  #compañia{
+    width:60%;
+    height:200px;
+    border: 3px solid black;
+    background-color: aqua;
+    margin-left: 1%;
+    background-position: center;
+    text-align: center;
+    font-size: 20px;
+    float: left;
+    margin-top: 200px;
+    font-family: Arial;
+  }
+  #imagen3 {
+    width:20%;
+    height:200px;
+    border: 3px solid black;
+    background-image:url(../imagenes/galaxia.jfif);
+    margin-right: 4%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: right;
+    margin-top: 200px;
+  }
+  #imagen4 {
+    width:20%;
+    height:200px;
+    border: 3px solid black;
+    background-image:url(../imagenes/estrella.jpg);
+    margin-left: 4%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    margin-top: 200px;
+  }
+  #lista{
+    width:90%;
+    height:600px;
+    border: 3px solid black;
+    background-color: aqua;
+    margin: 5%;
+    background-position: center;
+    text-align: center;
+    font-size: 20px;
+    float: left;
+    margin-top: 200px;
+    font-family: Arial;
+
+  }
+  #lista1 {
+    width:20%;
+    height:200px;
+    border: 3px solid black;
+    background-image:url(../imagenes/lista1.jfif);
+    margin-left: 3%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    margin-top: 200px;
+  }
+  #lista2 {
+    width:20%;
+    height:200px;
+    border: 3px solid black;
+    background-image:url(../imagenes/lista\ 2.jfif);
+    margin-left: 4%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    margin-top: 200px;
+  }
+  #lista3 {
+    width:20%;
+    height:200px;
+    border: 3px solid black;
+    background-image:url(../imagenes/lista\ 3.jfif);
+    margin-left: 4%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    margin-top: 200px;
+  }#lista4 {
+    width:20%;
+    height:200px;
+    border: 3px solid black;
+    background-image:url(../imagenes/lista4.jfif);
+    margin-left: 4%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    margin-top: 200px;
+  }
+  

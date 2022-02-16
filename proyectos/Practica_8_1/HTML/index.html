@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="StyleSheet" href="../CSS/css.css" type="text/css">
+    <title>Practica 8.1</title>
+</head>
+
+<body>
+    <div id="estilo1">Hey</div>
+    <p>El término wikinota 1​ (palabra que proviene del hawaiano wiki, «rápido»)2​ alude al nombre que recibe una
+        comunidad virtual, cuyas páginas son editadas directamente desde el navegador, donde los mismos usuarios crean,
+        modifican, corrigen o eliminan contenidos que, habitualmente, comparten. No tiene por qué ser necesariamente un
+        sitio en la web, puesto que hay wikis instalables para uso en el escritorio de un computador u ordenador
+        personal o que pueden portarse en un llavero USB que lleven un entorno LAMP como, por ejemplo, XAMPP.[cita
+        requerida] Los textos o «páginas wiki» tienen títulos únicos. Si se escribe el título de una página wiki en
+        algún sitio de la wiki entre dobles corchetes ([[Título de la página]]), esta palabra se convierte en un «enlace
+        web» a la página correspondiente. De este modo, en una página sobre «alpinismo» puede haber una palabra como
+        «piolet» o «brújula» que esté marcada</p>
+
+    <script>
+        document.body.addEventListener("mousemove", function (ev) {
+            let cHola = document.getElementById("estilo1");
+            cHola.style.left = ev.clientX + "px";
+            cHola.style.top = ev.clientY + "px";
+        });
+    </script>
+</body>
+
+</html>

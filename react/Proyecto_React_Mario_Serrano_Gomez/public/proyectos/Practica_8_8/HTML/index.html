@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informe de incidencias</title>
+    <link rel="StyleSheet" href="../CSS/css.css" type="text/css">
+</head>
+<body>
+  <header>
+      <h1>INFORME INCIDENCIA</h1>
+  </header>  
+  <figure>
+      <img src="../IMAGES/incidencia.jpg" alt="oficina" id="imagen"/>
+  </figure>
+  <main>
+      <form action="#">
+          <table>
+              <tr>
+                  <td>
+                      <label for="tipo">
+                          Tipo de incidencia
+                      </label>
+                  </td>
+                  <td>
+                      <select name="tipo" id="tipo">
+                          <option value="distribucion" selected>
+                              Distribucion
+                          </option>
+                          <option value="oficina">Oficina</option>
+                          <option value="produccion">Produccion</option>
+                      </select>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <label id="labelSerie" for="serie">
+                          Numero de serie
+                      </label>
+                  </td>
+                  <td>
+                      <input type="text" name="serie" id="serie">
+                  </td>
+              </tr>
+              <tr>
+                  <td colspan="2">
+                      <button type="button" id="mostrarDescripcion">
+                          Mostrar Descripcion
+                      </button>
+                      <div id="fDescripcion">
+                          <label for="descripcion" id="labelDescripcion">
+                              Descripcion
+                          </label>
+                          <textarea name="descripcion" id="descripcion"
+                          cols="30" rows="10">
+                        </textarea>
+                      </div>
+                  </td>
+              </tr>
+              <tr>
+                  <td colspan="2">
+                      <br>
+                      <button id="enviar">Enviar datos</button>
+                  </td>
+              </tr>
+          </table>
+          <div id="capaError">
+
+          </div>
+      </form>
+  </main>
+  <script>
+      window.addEventListener("load",function(ev){
+          var imagen=document.getElementById("imagen");
+          var combo=document.getElementById("tipo");
+          var serie=document.getElementById("serie");
+          var labelSerie=document.getElementById("labelSerie");
+          var labelDescripcion=document.getElementById("labelDescripcion");
+          var enviar=document.getElementById("enviar");
+          var mostrarDescripcion=document.getElementById("mostrarDescripcion");
+          var capaError=document.getElementById("capaError");
+          var fDescripcion=document.getElementById("fDescripcion");
+
+          combo.addEventListener("change",function(ev){
+              imagen.setAttribute("src",`img/${combo.value}.jpg`);
+              labelSerie.removeAttribute("class");
+              serie.removeAttribute("class");
+          });
+          serie.addEventListener("focus",function(ev){
+              capaError.textContent="";
+              labelSerie.classList.remove("error");
+              serie.classList.remove("error");
+          });
+          enviar.addEventListener("click",function(ev){
+              if(/^[0-9]{3}[A-Z]{4}[12A]$/.test(serie.value)==false){
+                  ev.preventDefault();
+                  capaError.textContent="Código no válido";
+                  labelSerie.classList.add("error");
+                  serie.classList.add("error");
+              }
+          });
+          mostrarDescripcion.addEventListener("click",function(ev){
+              fDescripcion.style.display="inline-block";
+              this.style.display="none";
+          });
+      });
+  </script>
+</body>
+</html>

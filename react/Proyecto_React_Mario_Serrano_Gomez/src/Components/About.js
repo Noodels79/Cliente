@@ -22,24 +22,24 @@ class About extends Component {
             <img className="profile-pic"  src={profilepic} alt="Tim Baker Profile Pic" />
          </div>
          <div className="nine columns main-col">
-            <h2>About Me</h2>
+            <h2>Sobre mí</h2>
 
             <p>{bio}</p>
             <div className="row">
                <div className="columns contact-details">
-                  <h2>Contact Details</h2>
+                  <h2>Contacto</h2>
                   <p className="address">
 						   <span>{name}</span><br />
 						   <span>{city}<br />
 						         {state}, {zip}
                    </span><br />
 						   <span>{phone}</span><br />
-                     <span><a href="mailto:tbakerx@gmail.com">{email}</a></span>
+                     <span><a href="mailto:irubai2003@gmail.com">{email}</a></span>
 					   </p>
                </div>
                <div className="columns download">
                   <p>
-                     <a href={resumeDownload} className="button" target="_blank"><i className="fa fa-download"></i>Download Resume</a>
+                     <a href={resumeDownload} className="button" target="_blank"><i className="fa fa-download"></i>Descargar Curriculum</a>
                   </p>
                </div>
             </div>

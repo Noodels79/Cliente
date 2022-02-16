@@ -1,0 +1,28 @@
+#caja {
+    width: 20%;
+    height: 200px;
+    margin-left: 40%;
+    margin-top: 200px;
+    float: left;
+}
+
+#resultado {
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 30px;
+    text-align: center;
+}
+
+#opera {
+    width: 30%;
+    height: 70px;
+    margin-left: 35%;
+}
+
+h1 {
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}

@@ -6,9 +6,7 @@ class Header extends Component {
       var name = this.props.data.name;
       var occupation = this.props.data.occupation;
       var description = this.props.data.description;
-      var jobDescription = this.props.data.jobDescription;
       var employer = this.props.data.employer;
-      var city = this.props.data.address.city;
       var networks = this.props.data.social.map(function (network) {
         return (
           <li key={network.name}>
@@ -23,42 +21,42 @@ class Header extends Component {
     return (
       <header id="home">
         <nav id="nav-wrap">
-          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
-            Show navigation
+          <a className="mobile-btn" href="#nav-wrap" title="Desplegar">
+            Desplegar
           </a>
-          <a className="mobile-btn" href="#home" title="Hide navigation">
-            Hide navigation
+          <a className="mobile-btn" href="#home" title="Ocultar">
+            Ocultar
           </a>
 
           <ul id="nav" className="nav">
             <li className="current">
               <a className="smoothscroll" href="#home">
-                Home
+               Hogar
               </a>
             </li>
             <li>
               <a className="smoothscroll" href="#about">
-                About
+                Sobre mí
               </a>
             </li>
             <li>
               <a className="smoothscroll" href="#resume">
-                Resume
+                Curriculum
               </a>
             </li>
             <li>
               <a className="smoothscroll" href="#portfolio">
-                Works
+                Trabajos
               </a>
             </li>
             <li>
               <a className="smoothscroll" href="#testimonials">
-                Testimonials
+                Testimonios
               </a>
             </li>
             <li>
               <a className="smoothscroll" href="#contact">
-                Contact
+                Contacto
               </a>
             </li>
           </ul>
@@ -66,11 +64,11 @@ class Header extends Component {
 
         <div className="row banner">
           <div className="banner-text">
-            <h1 className="responsive-headline">I'm {name}.</h1>
+            <h1 className="responsive-headline">{name}</h1>
             <h3>
-              I'm a <span>{city}</span> based <span>{occupation}</span>,
+               <span>{occupation}</span>,
               {description}
-              <span>{employer}</span> where I<span> {jobDescription}</span>.
+              <span>{employer}</span> .
             </h3>
             <hr />
             <ul className="social">{networks}</ul>

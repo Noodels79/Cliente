@@ -28,7 +28,7 @@ class Contact extends Component {
 
                   <p className="lead">{message}</p>
                   <br/>
-                  <p className="lead warning">Warning: Contact form not yet configured, please contact me via normal email for now</p>
+                  <p className="lead warning">El formulario de contacto no se ha configurado aún pongase en contacto via email</p>
 
             </div>
 
@@ -41,7 +41,7 @@ class Contact extends Component {
 					<fieldset>
 
                   <div>
-						   <label htmlFor="contactName">Name <span className="required">*</span></label>
+						   <label htmlFor="contactName">Nombre <span className="required">*</span></label>
 						   <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>/>
                   </div>
 
@@ -51,17 +51,17 @@ class Contact extends Component {
                   </div>
 
                   <div>
-						   <label htmlFor="contactSubject">Subject</label>
+						   <label htmlFor="contactSubject">Asunto</label>
 						   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>/>
                   </div>
 
                   <div>
-                     <label htmlFor="contactMessage">Message <span className="required">*</span></label>
+                     <label htmlFor="contactMessage">Mensaje <span className="required">*</span></label>
                      <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
                   </div>
 
                   <div>
-                     <button className="submit">Submit</button>
+                     <button className="submit">Enviar</button>
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif" />
                      </span>
@@ -79,7 +79,7 @@ class Contact extends Component {
             <aside className="four columns footer-widgets">
                <div className="widget widget_contact">
 
-					   <h4>Address and Phone</h4>
+					   <h4>Teléfono y Dirección</h4>
 					   <p className="address">
 						   {name}<br />
 						   {city} <br />

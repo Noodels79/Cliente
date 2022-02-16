@@ -1,0 +1,15 @@
+div{
+    border: 2px solid black;
+    padding: 1em;
+    position:fixed;
+    top: 20px;
+    width: 200px;
+    height: 100px;
+}
+#capa1{
+    left: 50px;
+    background-image: linear-gradient(to left, #daa520, #6495ed);
+}
+#capa2{
+    left: 400px;
+}
