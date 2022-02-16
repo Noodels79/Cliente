@@ -6,7 +6,7 @@
     "employer": "Instituto San Juan de la Cruz",
     "jobDescription": "",
     "image": "profile_pic.jpg",
-    "bio": "Estudie Comunicación Audiovisual en la epoca analogica, alla por el 1999, cuando empece a trabajar en banca y pequeños trabajos en Londres, y ahora he descubierto mi vocación como informático ",
+    "bio": "Estudie Comunicación Audiovisual en la epoca analógica, alla por el 1999, cuando empecé a trabajar en banca y pequeños trabajos en Londres, y ahora he descubierto mi vocación como informático ",
     "contactmessage": "Si hay trabajo para mí no dudes en contactarme por email",
     "email": "irubai2003@gmail.com",
     "phone": "(+34) 669 950 851",
@@ -16,12 +16,12 @@
       "state": "Madrid",
       "zip": "28223"
     },
-    "website": "https://github.com/Noodels79/Cliente",
+    "website": "https://github.com/Noodels79/Cliente/tree/ProyectoClientemarioSerranoGomez/proyectos",
     "resumedownload": "https://drive.google.com/file/d/1_cYvnIY73w6gq-pNnhsXDOvZeiv6ZnVS/view?usp=sharing",
     "social": [
       {
         "name": "github",
-        "url": "https://github.com/Noodels79/Cliente",
+        "url": "https://github.com/Noodels79/Cliente/tree/ProyectoClientemarioSerranoGomez/proyectos",
         "className": "fa fa-github"
       }
     ]
@@ -97,154 +97,154 @@
         "title": "Saludo",
         "category": "Mi primer saludo",
         "image": "saludo.png",
-        "url": "http://www.timbakerdev.com",
+        "url": "https://github.com/Noodels79/Cliente/tree/ProyectoClientemarioSerranoGomez/proyectos/Practica_1",
         "demo": "/proyectos/Practica_1/Index.html"
       },
       {
         "title": "Curriculum",
         "category": "De un planeta gaseoso",
         "image": "cvimg.png",
-        "url": "http://www.timbakerdev.com",
+        "url": "https://github.com/Noodels79/Cliente/tree/ProyectoClientemarioSerranoGomez/proyectos/CV",
         "demo": "/proyectos/CV/HTML/index.html"
       },
       {
         "title": "Practica 3.4",
         "category": "Cambiar de color aleatorio en background",
         "image": "color1.png",
-        "url": "https://github.com/Noodels79/Cliente/tree/master/Practica_3.4",
+        "url": "https://github.com/Noodels79/Cliente/tree/ProyectoClientemarioSerranoGomez/proyectos/Practica_3.4",
         "demo": "proyectos/Practica_3.4/HTML/index.html"
       },
       {
         "title": "Practica 3.5",
         "category": "Calculo de salario por edad",
         "image": "aleatorio.png",
-        "url": "http://www.timbakerdev.com",
+        "url": "https://github.com/Noodels79/Cliente/tree/ProyectoClientemarioSerranoGomez/proyectos/Practica_3.5",
         "demo": "proyectos/Practica_3.5/HTML/index.html"
       },
       {
         "title": "Practica 3.6",
         "category": "Juego número aleatorio",
         "image": "aleatorio1.png",
-        "url": "http://www.timbakerdev.com",
+        "url": "https://github.com/Noodels79/Cliente/tree/ProyectoClientemarioSerranoGomez/proyectos/Practica_3.6",
         "demo": "proyectos/Practica_3.6/HTML/index.html"
       },
       {
         "title": "Calculadora",
         "category": "Calculadora para calculos sencillos",
         "image": "prueba.png",
-        "url": "http://www.timbakerdev.com",
+        "url": "https://github.com/Noodels79/Cliente/tree/ProyectoClientemarioSerranoGomez/proyectos/Practica_Tema_3/Calculadora",
         "demo": "proyectos/Practica_Tema_3/Calculadora/HTML/index.html"
       },
       {
         "title": "Loteria",
         "category": "Calculo de la loteria y combinaciones",
         "image": "loteria.png",
-        "url": "http://www.timbakerdev.com",
+        "url": "https://github.com/Noodels79/Cliente/tree/ProyectoClientemarioSerranoGomez/proyectos/Loteria",
         "demo": "/proyectos/Loteria/HTML/Index.html"
       },
       {
         "title": "Practica 7.1",
         "category": "Introducir parrafos",
         "image": "introducir.png",
-        "url": "http://www.timbakerdev.com",
+        "url": "https://github.com/Noodels79/Cliente/tree/ProyectoClientemarioSerranoGomez/proyectos/Practica_7_1",
         "demo": "/proyectos/Practica_7_1/HTML/index.html"
       },
       {
         "title": "Practica 7.2",
         "category": "Temporizador que redirige a google",
         "image": "temporizador.png",
-        "url": "http://www.timbakerdev.com",
+        "url": "https://github.com/Noodels79/Cliente/tree/ProyectoClientemarioSerranoGomez/proyectos/Practica_7_2",
         "demo": "/proyectos/Practica_7_2/index.html"
       },
       {
         "title": "Practica 7.3",
         "category": "Contador de visitas de una web",
         "image": "contador.png",
-        "url": "http://www.timbakerdev.com",
+        "url": "https://github.com/Noodels79/Cliente/tree/ProyectoClientemarioSerranoGomez/proyectos/Practica_7_3",
         "demo": "/proyectos/Practica_7_3/index.html"
       },
       {
         "title": "Practica 7.4",
         "category": "Calculadora para calculos sencillos",
         "image": "buscar.png",
-        "url": "http://www.timbakerdev.com",
+        "url": "https://github.com/Noodels79/Cliente/tree/ProyectoClientemarioSerranoGomez/proyectos/Practica_7_4",
         "demo": "/proyectos/Practica_7_4/index.html"
       },
       {
         "title": "Practica 8.1",
         "category": "El puntero mueve un texto por el div",
         "image": "imagenmouse.png",
-        "url": "http://www.timbakerdev.com",
+        "url": "https://github.com/Noodels79/Cliente/tree/ProyectoClientemarioSerranoGomez/proyectos/Practica_8_1",
         "demo": "/proyectos/Practica_8_1/HTML/index.html"
       },
       {
         "title": "Practica 8.2",
         "category": "Cambiar imagen de fondo con  alt + F12",
         "image": "imagenfondo.png",
-        "url": "http://www.timbakerdev.com",
+        "url": "https://github.com/Noodels79/Cliente/tree/ProyectoClientemarioSerranoGomez/proyectos/Practica_8_2",
         "demo": "/proyectos/Practica_8_2/HTML/index.html"
       },
       {
         "title": "Wikivinculo",
         "category": "Enlace a wikipedia",
         "image": "imgwiki.png",
-        "url": "http://www.timbakerdev.com",
+        "url": "https://github.com/Noodels79/Cliente/tree/ProyectoClientemarioSerranoGomez/proyectos/wikipedia",
         "demo": "/proyectos/wikipedia/HTML/index.html"
       },
       {
         "title": "Practica 8.3",
         "category": "Cuadro que cambia de color al hacer click",
         "image": "recorte.png",
-        "url": "http://www.timbakerdev.com",
+        "url": "https://github.com/Noodels79/Cliente/tree/ProyectoClientemarioSerranoGomez/proyectos/Practica_8_3",
         "demo": "/proyectos/Practica_8_3/HTML/index.html"
       },
       {
         "title": "Practica 8.4",
         "category": "Velocimetro con arrow up y arrow down",
         "image": "velocidad.png",
-        "url": "http://www.timbakerdev.com",
+        "url": "https://github.com/Noodels79/Cliente/tree/ProyectoClientemarioSerranoGomez/proyectos/Practica_8_4",
         "demo": "/proyectos/Practica_8_4/HTML/index.html"
       },
       {
         "title": "Practica 8.5",
         "category": "Boton sencillo para ocultar parrafos",
         "image": "ocultar.png",
-        "url": "http://www.timbakerdev.com",
+        "url": "https://github.com/Noodels79/Cliente/tree/ProyectoClientemarioSerranoGomez/proyectos/Practica_8_5",
         "demo": "/proyectos/Practica_8_5/HTML/index.html"
       },
       {
         "title": "Practica 8.6",
         "category": "Cortinilla para cargar imagenes",
         "image": "mostrar.png",
-        "url": "http://www.timbakerdev.com",
+        "url": "https://github.com/Noodels79/Cliente/tree/ProyectoClientemarioSerranoGomez/proyectos/Practica_8_6",
         "demo": "/proyectos/Practica_8_6/HTML/index.html"
       },
       {
         "title": "Practica 8.7",
         "category": "Juego de arrastrar un div",
         "image": "arrastra.png",
-        "url": "http://www.timbakerdev.com",
+        "url": "https://github.com/Noodels79/Cliente/tree/ProyectoClientemarioSerranoGomez/proyectos/Practica_8_7",
         "demo": "/proyectos/Practica_8_7/HTML/index.html"
       },
       {
         "title": "Practica 8.8",
         "category": "Parte de incidencia",
         "image": "oficina.png",
-        "url": "http://www.timbakerdev.com",
+        "url": "https://github.com/Noodels79/Cliente/tree/ProyectoClientemarioSerranoGomez/proyectos/Practica_8_8",
         "demo": "/proyectos/Practica_8_8/HTML/index.html"
       },
       {
         "title": "Slider",
         "category": "Slider de imagenes",
         "image": "slide.png",
-        "url": "http://www.timbakerdev.com",
+        "url": "https://github.com/Noodels79/Cliente/tree/ProyectoClientemarioSerranoGomez/proyectos/slider",
         "demo": "/proyectos/slider/HTML/index.html"
       },
       {
         "title": "Pelota",
         "category": "Juego con una pelota de comparar 2 numeros",
         "image": "pelota.png",
-        "url": "http://www.timbakerdev.com",
+        "url": "https://github.com/Noodels79/Cliente/tree/ProyectoClientemarioSerranoGomez/proyectos/Pelota",
         "demo": "/proyectos/Pelota/HTML/index.html"
       }
     ]

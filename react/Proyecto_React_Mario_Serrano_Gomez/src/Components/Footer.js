@@ -19,7 +19,7 @@ class Footer extends Component {
            </ul>
 
            <ul className="copyright">
-              <li>&copy; Copyright 2022 <a title="Mario Serrano Gómez" href="https://github.com/Noodels79/Cliente">Mario Serrano Gómez</a></li>
+              <li>&copy; Copyright 2022 <a title="Mario Serrano Gómez" href="https://github.com/Noodels79/Cliente/tree/ProyectoClientemarioSerranoGomez/proyectos">Mario Serrano Gómez</a></li>
            </ul>
 
         </div>
