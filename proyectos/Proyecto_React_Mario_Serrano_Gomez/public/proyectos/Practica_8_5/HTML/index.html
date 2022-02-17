@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="capa">
+        <p>
+            Et magnis dis parturient montes nascetur ridiculus mus. Et ligula ullamcorper malesuada proin libero nunc consequat interdum. Fames ac turpis egestas sed tempus urna. Aliquam vestibulum morbi blandit cursus. Maecenas sed enim ut sem viverra aliquet eget sit amet. Massa eget egestas purus viverra accumsan. Proin libero nunc consequat interdum varius sit. Nibh cras pulvinar mattis nunc sed blandit. Pharetra massa massa ultricies mi quis hendrerit dolor magna eget. Mi bibendum neque egestas congue quisque. 
+        <br>
+            Et magnis dis parturient montes nascetur ridiculus mus. Et ligula ullamcorper malesuada proin libero nunc consequat interdum. Fames ac turpis egestas sed tempus urna. Aliquam vestibulum morbi blandit cursus. Maecenas sed enim ut sem viverra aliquet eget sit amet. Massa eget egestas purus viverra accumsan. Proin libero nunc consequat interdum varius sit. Nibh cras pulvinar mattis nunc sed blandit. Pharetra massa massa ultricies mi quis hendrerit dolor magna eget. Mi bibendum neque egestas congue quisque.
+        <br>
+            Et magnis dis parturient montes nascetur ridiculus mus. Et ligula ullamcorper malesuada proin libero nunc consequat interdum. Fames ac turpis egestas sed tempus urna. Aliquam vestibulum morbi blandit cursus. Maecenas sed enim ut sem viverra aliquet eget sit amet. Massa eget egestas purus viverra accumsan. Proin libero nunc consequat interdum varius sit. Nibh cras pulvinar mattis nunc sed blandit. Pharetra massa massa ultricies mi quis hendrerit dolor magna eget. Mi bibendum neque egestas congue quisque.
+        <br>
+            Et magnis dis parturient montes nascetur ridiculus mus. Et ligula ullamcorper malesuada proin libero nunc consequat interdum. Fames ac turpis egestas sed tempus urna. Aliquam vestibulum morbi blandit cursus. Maecenas sed enim ut sem viverra aliquet eget sit amet. Massa eget egestas purus viverra accumsan. Proin libero nunc consequat interdum varius sit. Nibh cras pulvinar mattis nunc sed blandit. Pharetra massa massa ultricies mi quis hendrerit dolor magna eget. Mi bibendum neque egestas congue quisque.
+        </p>
+    </div>
+    <div id="boton">
+        <button>Ocultar</button>
+    </div>
+    <script>
+        let capaScroll=document.getElementById("capa");
+        let capaBoton=document.getElementById("boton");
+        let boton=document.querySelector("#boton button");
+        capa.addEventListener("scroll",(ev)=>{
+            //para saber si hemos llegado al final
+            //hay que sumar la anchura del elemento
+            //a la propiedad scrollTop y ver si redodndeando
+            //hacia arriba, hemos llegado a scrollHeight
+            if(Math.ceil(capaScroll.scrollTop+capaScroll.clientHeight)>=capaScroll.scrollHeight){
+                capaBoton.style.display="block";
+            }
+            else{
+                capaBoton.style.display="none";
+            }
+        });
+        boton.addEventListener("click",(ev)=>{
+            document.body.removeChild(capaScroll);
+        });
+    </script>
+    
+</body>
+</html>

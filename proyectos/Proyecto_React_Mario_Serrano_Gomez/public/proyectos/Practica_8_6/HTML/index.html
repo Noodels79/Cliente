@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="StyleSheet" href="../CSS/css.css" type="text/css">
+    <title>Cortinilla</title>
+</head>
+<body>
+    
+    <div id="cargando">
+        <h1>Cargando</h1>
+    </div>
+    <img src="../IMAGES/1033287.jpg">
+    <img src="../IMAGES/147581.jpg">
+    <img src="../IMAGES/850656.jpg">
+    <img src="../IMAGES/973969.jpg">
+    <img src="../IMAGES/la-tierra-vista-desde-marte.jpg">
+    <script>
+        window.addEventListener("load",(ev)=>{
+            let cargando=document.getElementById("cargando");
+            cargando.classList.add("ocultar");
+        });
+    </script>
+</body>
+</html>
